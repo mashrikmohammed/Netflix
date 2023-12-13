@@ -107,10 +107,14 @@
     }
     .a-div{
         font-size: 18px;
-        padding: 13px;
+        padding: 0px;
     }
     .q-div{
         padding: 13px;
         font-size: 18px;
+    }
+    .start{
+        padding: 10px;
+        font-size: 14px;
     }
 }
