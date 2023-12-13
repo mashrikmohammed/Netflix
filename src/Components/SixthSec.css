@@ -1,0 +1,116 @@
+.sixth-sec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 180px;
+    background-color: black;
+    color: white;
+    padding-bottom: 80px;
+
+}
+
+.q-div {
+    padding: 15px 15px;
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.q-div:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.a-div {
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 24px;
+    max-height: 0;
+    overflow: hidden;
+   transition: .55s;
+}
+
+ .a-div.show{
+   max-height: 999px;
+   transition: 1.34s
+}
+.c-div{
+    padding: 20px ;
+}
+
+.sixth-sec h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.last-p{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.plus{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+@media (max-width:1180px) {
+    .sixth-sec{
+        padding: 40px 80px;
+    }
+
+}
+
+@media (max-width:790px) {
+    .sixth-sec{
+        padding: 40px 40px;
+    }
+
+    
+}
+
+@media (max-width:670px) {
+    .sixth-sec h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .sixth-sec p{
+        font-size: 20px;
+    }
+    .a-div{
+        font-size: 21px;
+    }
+    .q-div{
+        font-size: 21px;
+    }
+    .plus{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:430px) {
+    .sixth-sec h1 {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .sixth-sec p {
+        font-size: 16px;
+    }
+    .a-div{
+        font-size: 18px;
+        padding: 13px;
+    }
+    .q-div{
+        padding: 13px;
+        font-size: 18px;
+    }
+}

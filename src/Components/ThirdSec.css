@@ -1,0 +1,152 @@
+.img {
+    width: 600px;
+    height: 500px;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.third-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 70px 200px;
+    padding-bottom: 120px;
+}
+
+.scnd-sec h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.scnd-sec p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.film-det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 25px;
+    border: 2px solid;
+    border-color: rgb(97, 97, 97);
+    border-radius: 15px;
+    width: 350px;
+    margin: auto;
+    margin-top: -150px;
+    background-color: black;
+}
+.gif{
+    width: 50px;
+    height: 45px;
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-title img {
+    width: 60px;
+    height: 70px;
+}
+
+.img-title h4 span {
+    color: #0071eb;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-title h4 {
+    line-height: 20px;
+}
+
+@media (max-width:1320px) {
+    .third-sec{
+        padding: 60px 30px;
+    }
+    .first-sec .img{
+        width: 400px;
+        height: 400px;
+    }
+    .film-det{
+        width: 300px;
+        margin-top: -135px;
+    }
+}
+
+@media (max-width:800px) {
+    .third-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .scnd-sec{
+       text-align: center;
+       margin-top: 70px;
+    }
+    
+}
+
+@media (max-width:670px) {
+    .scnd-sec h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .scnd-sec p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:430px) {
+    .scnd-sec h1 {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .gif{
+        width: 40px;
+        height: 40px;
+    }
+
+    .scnd-sec p {
+        font-size: 16px;
+        padding: 10px;
+        margin-top: -20px;
+    }
+    .first-sec .img{
+        width: 200px;
+        height: 350px;
+        margin: auto;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .film-det{
+        width: 230px;
+        padding: 0pc 10px;
+        margin-top: -110px;
+    }
+    .img-title img {
+        width: 50px;
+        height: 60px;
+    }
+    .img-title{
+        gap: 10px;
+    }
+    .scnd-sec h1 {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: -20px;
+    }
+    
+}
